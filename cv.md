@@ -14,7 +14,7 @@ I have been painting since childhood. Went to university as a design architect. 
 **My strengths:** Desire to learn, Pedantry, Diligence, Team game.
 
 ### Skills  
-+ HTML
++ HTML5
 + CSS
 + Git, GitHub
 + JavaScript Basics
