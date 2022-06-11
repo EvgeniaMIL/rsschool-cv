@@ -3,8 +3,7 @@
 *:after {
     box-sizing: border-box;
 }
-<<<<<<< HEAD
-=======
+
 
 html {
     scroll-behavior: smooth; 
@@ -271,7 +270,7 @@ align-items: center;
 margin: 0 auto;
 color: #fff;
 }
->>>>>>> 2358fd58b5571a802a8aaef02fa763f57144cb98
+
 
 html {
     scroll-behavior: smooth; 
