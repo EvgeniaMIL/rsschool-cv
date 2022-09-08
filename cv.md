@@ -23,14 +23,25 @@ I have been painting since childhood. Went to university as a design architect. 
 
 ### Code Examples
 ```
-func flip(_ direction: String, _ a: [Int]) -> [Int] {
-  return direction == "L" ? a.sorted(by: >) : a.sorted() 
+function convert(input, source, target) {
+  let num = 0;  let str = '';
+  
+  for (let i = 0; i < input.length; i++) {
+    num = num * source.length + source.indexOf(input[i]);
+  }
+  while(num > 0) {
+    str = target[num % target.length] + str;
+    num = Math.floor(num / target.length);
+  }  
+  
+  return str ? str : target[0];
 }
 ```
 ### Education
 + __Belarusian Institute of Modern Knowledge__ (Spatial environment design)
 + __Harvard cours CS50__
 + __Swift Book__
++ __JS/FE Pre-School 2022Q2__
 ### Languages
 + __Russian__ - native speaker
 + __Вelorussian__ - native speaker
